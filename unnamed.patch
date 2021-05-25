@@ -1,0 +1,26 @@
+Index: lib/main.dart
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lib/main.dart	(date 1621984658907)
++++ lib/main.dart	(date 1621984658907)
+@@ -0,0 +1,17 @@
++import 'package:flutter/material.dart';
++
++void main(){
++  runApp(MaterialApp(
++      home: Scaffold(
++        backgroundColor: Colors.white and Colors.green,
++        appBar: AppBar(title:
++        Center(child: Text("I AM POOR")),
++          backgroundColor: Colors.lightBlue,),
++        body: Center(
++          child: Image(
++              image: AssetImage('images/poor.png')
++          ),
++        ),
++      )
++  ));
++}
+\ No newline at end of file
